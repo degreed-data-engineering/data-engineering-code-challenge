@@ -28,8 +28,8 @@ These requirements are meant to be flexible and a little bit vague, so use your 
 5. No specific requirement for how to test, but we *would* prefer to see some test cases where possible
 
 Example pseudocode:
-```python
-transform_content_hostname "./Degreed_Example_Completions.csv" "./Degreed_Transformed_Completions.csv"
+```
+python3 main.py
 ```
 
 ### Submitting Your Code
