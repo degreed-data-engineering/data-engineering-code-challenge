@@ -50,7 +50,7 @@ We don't expect you to have production-quality code for this challenge; set a ti
 
 
 ## Dataset
-You can download the dataset attached to this gist below ([Degreed Example Completions](https://gist.github.com/NevilleS/3cff7d0f60ebc85daf22dfbd1799659e/raw/86700c97e611f562aa7c6ddaec770dd1c6c88007/Degreed_Example_Completions.csv)).
+You can download the dataset attached to this gist below ([Degreed Example Completions](https://github.com/dg-rr/data-engineering-code-challenge/blob/master/data/Degreed_ExampleCompletions.csv)).
 
 It's a CSV file of sample data pulled from some our internal Degreed team usage, anonymized, cleaned up, and with most of the unrelated columns removed for clarity. The schema is simply:
 
