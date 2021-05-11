@@ -1,9 +1,9 @@
 # Degreed Data Engineering Challenge
 
 ## Problem
-Degreed is a lifelong learning platform that individuals and organizations use to discover learning content, build skills, and certify their expertise. In today's world, learner can find content from a wide variety of both public and private sources, including websites like Coursera, Udacity, and Pluralsight, company-specific systems known as "Learning Management Systems" (LMS), and the wide variety of public blogs, enterprise knowledge systems, and of course offline sources like books, classrooms, etc.
+Degreed is a lifelong learning platform that individuals and organizations use to discover learning content, build skills, and certify their expertise. In today's world, learners can find content from a wide variety of both public and private sources, including websites like Coursera, Udacity, and Pluralsight; company-specific systems known as "Learning Management Systems" (LMSs); a wide variety of public blogs and enterprise knowledge systems; and, of course, offline sources like books, classrooms, etc.
 
-Degreed allows users to track their learning across all these sources by adding articles, videos, books, courses, events to their Degreed Profile. We track all of these as "completions" which are stored in our application database and then synchronized to our analytics data warehouse.
+Degreed allows users to track their learning across all these sources by adding articles, videos, books, courses, events to their Degreed Profile. We track all of these as "completions," which are stored in our application database and then synchronized to our analytics data warehouse.
 
 Across our hundreds of enterprise clients and millions of users, we've accumulated tens of millions of these completions for analysis. However, it can be really difficult to make sense of trends at that scale, especially since the source URLs for all of these systems are highly variable. The types of questions we're asking ourselves are:
 * What are some of the most used websites across our user base?
