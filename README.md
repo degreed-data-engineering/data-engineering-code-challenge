@@ -1,6 +1,15 @@
-# Degreed Data Engineering Challenge
+# Degreed Data Engineering Code Challenge
 
-## Problem
+
+## Requirements
+* Please use **python 3** to complete this challenge
+* Please fork this repository and complete your work on a branch. When ready, open a pull request from your branch to the master branch on your fork.
+  * For example, user jdoe will open a pull request from jdoe/my-branch to jdoe/master.
+  * Please do not open a pull request directly against this repo.
+* Please make your updates in [lib/transformer.py](lib/transformer.py). You should not need to make any changes to [main.py](main.py).
+* Please spend no more than 2 hours on this challenge.
+
+## Problem Background
 Degreed is a lifelong learning platform that individuals and organizations use to discover learning content, build skills, and certify their expertise. In today's world, learners can find content from a wide variety of both public and private sources, including websites like Coursera, Udacity, and Pluralsight; company-specific systems known as "Learning Management Systems" (LMSs); a wide variety of public blogs and enterprise knowledge systems; and, of course, offline sources like books, classrooms, etc.
 
 Degreed allows users to track their learning across all these sources by adding articles, videos, books, courses, events to their Degreed Profile. We track all of these as "completions," which are stored in our application database and then synchronized to our analytics data warehouse.
@@ -36,23 +45,23 @@ python3 main.py
 When you're finished, you can either email us an archive or link us to a (private) repository with your submission. We'd like you to keep your personal code private - at least for now - so that other candidates don't end up copying from (or being intimidated by!) your solution. We're not overly concerned about this, though, so you can use a public Github repo too, as long as you're OK taking it offline once we've reviewed it together. Appreciate it!
 
 ### Expectations
-We don't expect you to have production-quality code for this challenge; set a timelimit for whatever time you can spare (no longer than three to four hours, please) and tackle the problem like you would for building a proof-of-concept solution. We'll have you walk us through your solution on our debrief call to discuss how you'd take this to the next stage, though, so we do expect to be able to understand what you've done! In other words, we definitely prefer *code quality* over *code quantity*.
+We don't expect you to have production-quality code for this challenge; set a timelimit for whatever time you can spare (no longer than two hours, please) and tackle the problem like you would for building a proof-of-concept solution. In other words, we definitely prefer *code quality* over *code quantity*.
 
 ### TL;DR
 * Build a (simple) transform pipeline that computes the URL hostname for a dataset of completions
 * Use Python for this challenge, but any libraries and tools you prefer
 * Use the sample CSV dataset for input
 * Submit your code as a ZIP file or a private repo; something we can review together
-* Write good, clean code, but not production quality! We'll have you walk through the code in your debrief call
-* Spend no more than 4 hours on this challenge - we know your time is valuable
+* Write good, clean code, but not production quality!
+* Spend no more than 2 hours on this challenge - we know your time is valuable
 * Use the Internet! It's not cheating to Google stuff (but do cite your sources for any code you directly copy)
 * Assume requirements will change over time and we'll want to improve all of this later :)
 
 
 ## Dataset
-You can download the dataset attached to this gist below ([Degreed Example Completions](https://github.com/dg-rr/data-engineering-code-challenge/blob/master/data/Degreed_ExampleCompletions.csv)).
+The dataset can be found in the `data` directory - [Degreed Example Completions](data/Degreed_ExampleCompletions.csv).
 
-It's a CSV file of sample data pulled from some our internal Degreed team usage, anonymized, cleaned up, and with most of the unrelated columns removed for clarity. The schema is simply:
+It's a CSV file of sample data pulled from some of our internal Degreed team usage, anonymized, cleaned up, and with most of the unrelated columns removed for clarity. The schema is simply:
 
 Column     | Description
 -----------|--------------------------------------------
