@@ -2,12 +2,13 @@
 
 
 ## Requirements
+* Please spend no more than 2 hours on this challenge.
 * Please use **python 3** to complete this challenge
 * Please fork this repository and complete your work on a branch. When ready, open a pull request from your branch to the master branch on your fork.
   * For example, user jdoe will open a pull request from jdoe/my-branch to jdoe/master.
   * Please do not open a pull request directly against this repo.
 * Please make your updates in [lib/transformer.py](lib/transformer.py). You should not need to make any changes to [main.py](main.py).
-* Please spend no more than 2 hours on this challenge.
+* Please do include comments in your code to help us understand your decision making (but no need to explain each line)
 
 ## Problem Background
 Degreed is a lifelong learning platform that individuals and organizations use to discover learning content, build skills, and certify their expertise. In today's world, learners can find content from a wide variety of both public and private sources, including websites like Coursera, Udacity, and Pluralsight; company-specific systems known as "Learning Management Systems" (LMSs); a wide variety of public blogs and enterprise knowledge systems; and, of course, offline sources like books, classrooms, etc.
